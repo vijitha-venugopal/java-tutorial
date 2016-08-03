@@ -16,5 +16,8 @@ class MovieTestDrive {
     public static void main(String[] args) {
         Movie one=new Movie();
         one.playIt();
+
+        Movie two=new Movie();
+
     }
 }
