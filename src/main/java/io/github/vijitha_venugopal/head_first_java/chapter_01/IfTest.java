@@ -1,4 +1,4 @@
-package io.github.vijitha_venugopal.head_first_java.chapter_0.chapter_0;
+package io.github.vijitha_venugopal.head_first_java.chapter_0;
 
 /**
  * class
