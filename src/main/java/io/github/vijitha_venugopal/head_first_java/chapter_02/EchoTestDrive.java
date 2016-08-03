@@ -3,12 +3,7 @@ package io.github.vijitha_venugopal.head_first_java.chapter_02;
 /**
  * Created by vijitha on 03/08/16.
  */
-class Echo {
-    int count=0;
-    void hello() {
-        System.out.println("helloooooo......");
-    }
-}
+
 public class EchoTestDrive {
     public static void main(String[] args) {
         Echo e1=new Echo();
@@ -25,5 +20,11 @@ public class EchoTestDrive {
             }
             x = x + 1;
         }
+    }
+}
+class Echo {
+    int count=0;
+    void hello() {
+        System.out.println("helloooooo......");
     }
 }
