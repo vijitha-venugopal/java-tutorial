@@ -5,7 +5,7 @@ package io.github.vijitha_venugopal.head_first_java.chapter_02;
  */
 public class Dog {
     int size;
-    String bread;
+    String breed;
     String name;
 
     void bark() {
@@ -15,6 +15,7 @@ public class Dog {
 class DogTestDrive {
     public static void main(String[] args) {
         Dog d=new Dog();
+        d.size=3;
         d.bark();
     }
 }
