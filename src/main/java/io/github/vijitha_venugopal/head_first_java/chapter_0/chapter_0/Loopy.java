@@ -1,4 +1,4 @@
-package io.github.vijitha_venugopal.Head_First_Java.Head_First_Java.Chapter0;
+package io.github.vijitha_venugopal.head_first_java.chapter_0.chapter_0;
 
 /**
  * Created by vijitha on 03/08/16.
