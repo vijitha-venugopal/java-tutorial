@@ -5,23 +5,20 @@ package io.github.vijitha_venugopal.head_first_java.chapter_04;
  */
 public class DogTestDrive {
     public static void main(String[] args) {
-        Dog one =new Dog();
-        one.size=70;
-        Dog two=new Dog();
-        two.size=8;
-        Dog three=new Dog();
-        three.size=35;
-
+        Dog one = new Dog();
+        one.size = 70;
+        Dog two = new Dog();
+        two.size = 8;
+        Dog three = new Dog();
+        three.size = 35;
         one.bark();
         two.bark();
         three.bark();
     }
-
 }
 class Dog {
     int size;
-
-     void bark() {
+    void bark() {
         if (size>60) {
             System.out.println("Wooof!  Wooof!");
         }
@@ -33,3 +30,6 @@ class Dog {
         }
     }
 }
+
+
+
