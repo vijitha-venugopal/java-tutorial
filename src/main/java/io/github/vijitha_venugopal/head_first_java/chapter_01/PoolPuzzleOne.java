@@ -17,12 +17,12 @@ public class PoolPuzzleOne {
                 x=x+2;
             }
             if(x==1) {
-                System.out.print(" noys ");
+                System.out.print("noys ");
             }
             if(x<1) {
-                System.out.print(" oise ");
+                System.out.print("oise ");
             }
-            System.out.print(" ");
+            System.out.println(" ");
             x=x+1;
         }
     }
