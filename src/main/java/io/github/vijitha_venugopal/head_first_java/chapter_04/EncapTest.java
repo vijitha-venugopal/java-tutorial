@@ -33,6 +33,7 @@ class Encap{
 
      String getIdNum(){
         return idNum;
+
     }
 
     void setAge( int newAge){
