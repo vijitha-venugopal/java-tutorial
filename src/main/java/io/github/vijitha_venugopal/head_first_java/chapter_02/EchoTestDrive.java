@@ -1,6 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_02;
 
 /**
+ * class to test working of objects
  * Created by vijitha on 03/08/16.
  */
 
