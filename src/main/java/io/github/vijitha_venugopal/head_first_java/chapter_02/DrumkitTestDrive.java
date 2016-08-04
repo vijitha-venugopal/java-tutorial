@@ -1,6 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_02;
 
 /**
+ * class to test working of objects
  * Created by vijitha on 03/08/16.
  */
 public class DrumkitTestDrive {
@@ -9,7 +10,7 @@ public class DrumkitTestDrive {
         d.playSnare();
         d.snare=false;
         d.playTopHat();
-        if(d.snare==true){
+        if(d.snare){
             d.playSnare();
         }
     }
