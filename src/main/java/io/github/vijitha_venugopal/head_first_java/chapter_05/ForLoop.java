@@ -1,4 +1,4 @@
-package io.github.vijitha_venugopal.head_first_java.chapter_5;
+package io.github.vijitha_venugopal.head_first_java.chapter_05;
 
 /**
  * class using for loop
