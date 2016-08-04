@@ -1,6 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_04;
 
 /**
+ * Class to test the way callbyreference Work
  * Created by vijitha on 04/08/16.
  */
 public class CallByReference {
@@ -11,7 +12,7 @@ public class CallByReference {
         System.out.println("Value  after calling increment() is "+a.x);
     }
 
-    public static void increment(Number n) {
+    private static void increment(Number n) {
         System.out.println("Value before incrementing is "+n.x);
         n.x=n.x+1;
         System.out.println("Value after incrementing is "+n.x);
