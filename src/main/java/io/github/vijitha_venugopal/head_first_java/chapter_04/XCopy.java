@@ -1,7 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_04;
 
 /**
- * class to learn call by value
+ * class to learn how work call by value
  * Created by vijitha on 04/08/16.
  */
 public class XCopy {
