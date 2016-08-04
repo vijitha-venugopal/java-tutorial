@@ -1,6 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_04;
 
 /**
+ * class  for test the way method work
  * Created by vijitha on 03/08/16.
  */
 public class DogTestDrive {
