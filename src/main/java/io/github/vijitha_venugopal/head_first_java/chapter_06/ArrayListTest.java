@@ -8,6 +8,9 @@ public class ArrayListTest {
         pets.add("Parrot");
         pets.add("Dog");
         pets.add("Cat");
+        System.out.println("contain :"+pets);
+        pets.add(1,"Rat");
+        System.out.println("contain :"+pets);
         int thesize=pets.size();
         System.out.println("Size :"+thesize);
         boolean isin=pets.contains("Cat");
