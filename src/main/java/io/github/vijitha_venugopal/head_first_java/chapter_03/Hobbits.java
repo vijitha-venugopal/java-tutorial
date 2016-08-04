@@ -1,10 +1,11 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_03;
 
 /**
+ * class to test working of array
  * Created by vijitha on 03/08/16.
  */
 public class Hobbits {
-    String name;
+    private String name;
     public static void main(String[] args) {
         Hobbits[] h=new Hobbits[3];
         int x=-1;
