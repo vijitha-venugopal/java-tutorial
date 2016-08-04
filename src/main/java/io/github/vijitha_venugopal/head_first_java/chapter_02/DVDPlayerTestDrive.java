@@ -1,6 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_02;
 
 /**
+ * class to test working of object
  * Created by vijitha on 03/08/16.
  */
 public class DVDPlayerTestDrive {
@@ -8,7 +9,7 @@ public class DVDPlayerTestDrive {
         DVDPlayer d=new DVDPlayer();
         d.canRecord=true;
         d.playDVD();
-        if(d.canRecord==true){
+        if(d.canRecord){
             d.recordDVD();
         }
     }
