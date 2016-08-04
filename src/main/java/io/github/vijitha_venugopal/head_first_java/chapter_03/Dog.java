@@ -1,10 +1,11 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_03;
 
 /**
+ * class to test working of array
  * Created by vijitha on 03/08/16.
  */
 public class Dog {
-    String name;
+    private String name;
 
     public static void main(String[] args) {
         Dog dog1=new Dog();
