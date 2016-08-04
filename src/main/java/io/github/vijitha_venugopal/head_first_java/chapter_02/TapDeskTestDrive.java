@@ -1,6 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_02;
 
 /**
+ * class to test working of object
  * Created by vijitha on 03/08/16.
  */
 
@@ -10,7 +11,7 @@ public class TapDeskTestDrive {
         t.pauseTape();
         t.canRecord=true;
         t.playTape();
-        if(t.canRecord==true) {
+        if(t.canRecord) {
             t.recordTape();
         }
 
