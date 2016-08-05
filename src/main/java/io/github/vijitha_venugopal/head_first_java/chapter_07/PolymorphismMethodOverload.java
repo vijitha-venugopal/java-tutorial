@@ -7,7 +7,7 @@ package io.github.vijitha_venugopal.head_first_java.chapter_07;
  */
 public class PolymorphismMethodOverload {
     public static void main(String[] args) {
-        Overload Obj = new Overload();
+        MethodOverload Obj = new MethodOverload();
         double result;
         Obj .demo(10);
         Obj .demo(10, 20);
@@ -17,7 +17,7 @@ public class PolymorphismMethodOverload {
     }
 
 }
-class Overload
+class MethodOverload
 {
     void demo (int a)
     {
