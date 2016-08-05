@@ -1,4 +1,4 @@
-package io.github.vijitha_venugopal.head_first_java.chapter_07;
+package io.github.vijitha_venugopal.head_first_java.chapter_08;
 
 /**
  * class using inheritance and abstraction
