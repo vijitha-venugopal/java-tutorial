@@ -25,9 +25,9 @@ public class AnimalTestDrive {
         animals.add("Dog");
         animals.add("Cat");
 
-        System.out.println("contain :" + pets);
-        System.out.println("contain :" + fruits);
-        System.out.println("contain :" + animals);
+        System.out.println("pets contain :" + pets);
+        System.out.println("fruits contain :" + fruits);
+        System.out.println("animals contain :" + animals);
 
         int thesize = pets.size();
         System.out.println("Size :" + thesize);
@@ -59,6 +59,7 @@ public class AnimalTestDrive {
         System.out.println("hashcode :" + " ' " + obj.hashCode() + " ' ");
 
         System.out.println("ToString :" + " ' " + obj.toString() + " ' ");
+        System.out.println("What is the element in index 2 :" + " ' " +pets.get(2));
 
     }
 }
