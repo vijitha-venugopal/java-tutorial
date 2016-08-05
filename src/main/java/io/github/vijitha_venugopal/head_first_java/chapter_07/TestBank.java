@@ -1,6 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_07;
 
 /**
+ * class using inheritance
  * Created by vijitha on 05/08/16.
  */
 
