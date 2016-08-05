@@ -1,11 +1,12 @@
 package io.github.vijitha_venugopal.head_first_java.chapter_10;
 
-/**
- * Created by vijitha on 05/08/16.
+/*
+  class to test the working of Math Methods
+  Created by vijitha on 05/08/16.
  */
 import java.util.Scanner;
 
-class Mathamethods {
+class MathaMethods {
     public static void main(String angt[]) {
         Scanner data = new Scanner(System.in);
         double num1, num2, num;
