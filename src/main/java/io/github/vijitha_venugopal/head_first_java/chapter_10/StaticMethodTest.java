@@ -14,9 +14,9 @@ public class StaticMethodTest {
     }
 
     private static void display() {
+
         System.out.println("Programming is amazing.");
     }
-
     private static void show(){
         System.out.println("Java is awesome.");
     }
