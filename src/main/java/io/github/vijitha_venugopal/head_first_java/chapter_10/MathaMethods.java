@@ -5,7 +5,7 @@ package io.github.vijitha_venugopal.head_first_java.chapter_10;
   Created by vijitha on 05/08/16.
  */
 import java.util.Scanner;
-
+import static java.lang.System.out;
 class MathaMethods {
     public static void main(String angt[]) {
         Scanner data = new Scanner(System.in);
@@ -46,7 +46,7 @@ class MathaMethods {
         System.out.println("expm1:" + num);
 
         num = Math.round(2.15);
-        System.out.println("Rounding 2.15 ... :" + num);
+        System.out.println("Rounding 2.15 .... :" + num);
 
         double r1=Math.random();
         int r2=(int)(Math.random()*5);
