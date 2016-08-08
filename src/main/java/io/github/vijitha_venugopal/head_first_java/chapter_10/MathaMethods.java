@@ -48,5 +48,11 @@ class MathaMethods {
         num = Math.round(2.15);
         System.out.println("Rounding 2.15 ... :" + num);
 
+        double r1=Math.random();
+        int r2=(int)(Math.random()*5);
+
+        System.out.println("Random r1 :"+r1);
+        System.out.println("Random r2 :"+r2);
+
     }
 }
