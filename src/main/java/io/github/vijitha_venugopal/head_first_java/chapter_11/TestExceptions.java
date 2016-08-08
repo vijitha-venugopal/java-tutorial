@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class TestExceptions {
 
 
-    private void divide() throws ArithmeticException {
+    void divide() throws ArithmeticException {
         int a, b, result;
         Scanner s = new Scanner(System.in);
         System.out.println("Enter two integers");
