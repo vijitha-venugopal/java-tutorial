@@ -5,10 +5,10 @@ package io.github.vijitha_venugopal.head_first_java.chapter_10;
  * Created by vijitha on 08/08/16.
  */
 
-class A{
+class StaticFinalVariable {
     private static final int data=50;
     public static void main(String args[]){
-        System.out.println(A.data);
+        System.out.println(StaticFinalVariable.data);
     }
 }
 
