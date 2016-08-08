@@ -12,8 +12,11 @@ public class ArrayListOfPrimitives {
         listOfNumbers.add(new Integer(3));
         listOfNumbers.add(new Integer(13));
         listOfNumbers.add(new Integer(43));
-        Integer one=(Integer)listOfNumbers.get(1);
+        Integer one=(Integer)listOfNumbers.get(0);
         int intOne=one.intValue();
+        System.out.println(intOne);
+
+//        ArrayList <Integer> listOfNumbers=new ArrayList<Integer>();
 //        listOfNumbers.add(3);
 //        listOfNumbers.add(4);
 //        listOfNumbers.add(1);
