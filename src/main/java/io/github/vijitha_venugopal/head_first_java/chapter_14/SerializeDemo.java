@@ -9,6 +9,8 @@ import java.io.Serializable;
  * class for serialization
  * Created by vijitha on 09/08/16.
  */
+import java.io.*;
+
 public class SerializeDemo
 {
     public static void main(String [] args)
@@ -21,7 +23,8 @@ public class SerializeDemo
 
         try
         {
-            FileOutputStream fileOut =new FileOutputStream("employee.ser");
+            FileOutputStream fileOut =
+                    new FileOutputStream("employee.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             out.writeObject(e);
             out.close();
@@ -32,13 +35,4 @@ public class SerializeDemo
             i.printStackTrace();
         }
     }
-}
-class Employee implements Serializable
-{
-    public String name;
-    String address;
-    transient int SSN;
-    int number;
-
-
 }
