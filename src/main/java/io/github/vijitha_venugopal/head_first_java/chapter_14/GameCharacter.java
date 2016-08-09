@@ -25,7 +25,7 @@ public class GameCharacter implements Serializable{
     public String getWeapons() {
         String weaponList="";
         for (int i=0;i<weapons.length;i++) {
-            weaponList +=weapons[i] +" ";
+            weaponList +=weapons[i] +"  ";
         }
         return weaponList;
     }
