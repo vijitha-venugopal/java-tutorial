@@ -33,7 +33,6 @@ public class QuizCardBuilder {
         question.setLineWrap(true);
         question.setWrapStyleWord(true);
         question.setFont(bigFont);
-        
         JScrollPane qScroller=new JScrollPane(question);
         qScroller.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         qScroller.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
@@ -53,7 +52,10 @@ public class QuizCardBuilder {
         
         JLabel qLabel=new JLabel("Question :");
         JLabel aLabel=new JLabel("Answer :");
-        
+        Color backgroundColor = JColorChooser.showDialog(frame,
+                "Choose background color", Color.yellow);
+
+        mainpanel.setBackground(backgroundColor);
         mainpanel.add(qLabel);
         mainpanel.add(qScroller);
         mainpanel.add(aLabel);
