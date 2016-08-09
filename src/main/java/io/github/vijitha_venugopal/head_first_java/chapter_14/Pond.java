@@ -5,7 +5,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 /**
- * class using serialization
+ * class using serialization-mark an instance variables as transient if it can't be saved
  * Created by vijitha on 09/08/16.
  */
 public class Pond extends Duck  {
@@ -27,7 +27,7 @@ public class Pond extends Duck  {
     }
 }
 class Duck implements Serializable{
-    private String name;
+    private transient String name;
 
     void setName(String n){
         name=n;
