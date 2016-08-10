@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 
 /**
- * class for version id controll
+ * class for version id control
  * Created by vijitha on 10/08/16.
  */
 public class DeserializationClass {
