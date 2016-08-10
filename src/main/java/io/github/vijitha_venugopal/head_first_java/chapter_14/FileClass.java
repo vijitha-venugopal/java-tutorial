@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
+ * class for file class
  * Created by vijitha on 09/08/16.
  */
 public class FileClass {
@@ -28,6 +29,8 @@ public class FileClass {
                 System.out.println("Absolute directory path :"+dir.getAbsolutePath());
             }
             boolean isDeleted=file1.delete();
+        System.out.println(isDeleted);
+
         }
     }
 
