@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 /**
- * class for versionod controll
+ * class for versionod control
  * Created by vijitha on 10/08/16.
  */
 public class SerializaitonClass {
