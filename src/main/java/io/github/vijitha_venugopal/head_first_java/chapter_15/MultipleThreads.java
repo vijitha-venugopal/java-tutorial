@@ -9,7 +9,6 @@ import java.lang.Runnable;
 class MultipleThreads implements Runnable{
     public static void main(String[] args) {
         MultipleThreads runner=new MultipleThreads();
-        Runnable threadJob= new MyRunnable();
         Thread alpha=new Thread(runner);
         Thread beta=new Thread(runner);
         alpha.setName("Alpha thread");
