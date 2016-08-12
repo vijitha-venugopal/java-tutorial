@@ -7,3 +7,5 @@ Rose
 
 Names of Birds
 .............
+Peacock
+Parrot
