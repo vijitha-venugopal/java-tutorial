@@ -3,7 +3,7 @@ package io.github.vijitha_venugopal.head_first_java.package_16;
 import java.util.ArrayList;
 
 /**
- * class for polymorphic arguments and generics
+ * class for polymorphic arguments and generics.
  * Created by vijitha on 13/08/16.
  */
 public class TestGenerics2 {
