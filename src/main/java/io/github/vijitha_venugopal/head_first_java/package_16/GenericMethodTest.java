@@ -1,7 +1,7 @@
 package io.github.vijitha_venugopal.head_first_java.package_16;
 
 /**
- * class for GenericMethodTest
+ * class Using GenericMethodTest
  * Created by vijitha on 13/08/16.
  */
 public class GenericMethodTest
