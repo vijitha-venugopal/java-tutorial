@@ -15,11 +15,7 @@ public class Jukebox6 {
 
     }
 
-    class ArtistCompare implements Comparator<Song> {
-        public int compare(Song one, Song two) {
-            return one.getArtist().compareTo(two.getArtist());
-        }
-    }
+
 
     public void go() {
         getSongs();
