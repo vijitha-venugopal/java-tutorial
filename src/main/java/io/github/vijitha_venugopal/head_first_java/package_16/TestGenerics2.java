@@ -8,35 +8,35 @@ import java.util.ArrayList;
  */
 public class TestGenerics2 {
     public static void main(String[] args) {
-        new TestGenerics1().go();
+        new TestGenerics2().go();
     }
 
     public void go() {
-        ArrayList<Animal>animals=new ArrayList<Animal>();
+        ArrayList<Animal1>animals=new ArrayList<Animal1>();
         animals.add(new Dog1());
         animals.add(new Cat1());
         animals.add(new Dog1());
         takeAnimals(animals);
     }
 
-    public void takeAnimals(ArrayList<Animal> animals) {
-        for (Animal a: animals) {
+    public void takeAnimals(ArrayList<Animal1> animals) {
+        for (Animal1 a: animals) {
             a.eat();
         }
     }
 }
-class Animal1{
+abstract class Animal1{
     void eat(){
         System.out.println("Animal eating");
     }
 }
- class Dog1 extends Animal{
+ class Dog1 extends Animal1{
     void bark(){
 
     }
 
 }
-class Cat1 extends Animal{
+class Cat1 extends Animal1{
     void meow(){
 
     }
