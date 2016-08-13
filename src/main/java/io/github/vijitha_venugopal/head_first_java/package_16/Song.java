@@ -1,34 +1,49 @@
 package io.github.vijitha_venugopal.head_first_java.package_16;
 
+import java.util.Locale;
+
 /**
+ * using generic class
  * Created by vijitha on 13/08/16.
  */
-public class Song {
+class Song implements Comparable<Song>{
     String title;
     String artist;
     String rating;
     String bpm;
 
-    Song(String t,String a,String r,String b) {
-        title=t;
-        artist=a;
-        rating=r;
-        bpm=b;
 
+    public int compareTo(Song s) {
+        return title.compareTo(s.getTitle());
     }
-    public String getTitle(){
+
+    Song(String t, String a, String r, String b) {
+        title = t;
+        artist = a;
+        rating = r;
+        bpm = b;
+    }
+
+
+
+    public String getTitle() {
         return title;
     }
-    public String getArtist(){
+
+    public String getArtist() {
         return artist;
     }
-    public String getRating(){
+
+    public String getRating() {
         return rating;
     }
-    public String getBpm(){
+
+    public String getBpm() {
         return bpm;
     }
-    public String toString(){
-        return  title;
+
+    public String toString() {
+        return title;
     }
+
 }
