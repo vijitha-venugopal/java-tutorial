@@ -1,12 +1,11 @@
 /**
+ * Arithmetic operatins
  * Created by vijitha on 17/08/16.
  */
-
 var a = 33;
 var b = 10;
 var c = 15;
 var linebreak = "<br/>";
-
 document.write("a = ");
 document.write(a);
 document.write(linebreak);
@@ -16,7 +15,6 @@ document.write(linebreak);
 document.write("c = ");
 document.write(c);
 document.write(linebreak);
-
 document.write("a + b = ");
 result = a + b;
 document.write(result);
