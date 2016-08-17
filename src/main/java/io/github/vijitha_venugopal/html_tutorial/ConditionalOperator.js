@@ -13,12 +13,12 @@ document.write(" b=");
 document.write(b);
 document.write(linebreak);
 
-document.write ("((a > b) ? true : false) => ");
-result = (a > b) ? true : false;
+document.write ("((a > b) ? a-b : a+b) => ");
+result = (a > b) ? a-b : a+b;
 document.write(result);
 document.write(linebreak);
 
-document.write ("((a < b) ? true : false) => ");
-result = (a < b) ? true : false;
+document.write ("((a < b) ? a+b : a-b) => ");
+result = (a < b) ? a+b : a-b;
 document.write(result);
 document.write(linebreak);
