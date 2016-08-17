@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Tutorial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="html-tutorial.js" ></script>
+    <script>
+        $("#placeholder").append("<h2>Hello from internal Script</h2>")
+    </script>
+    <!--<script src="html-tutorial.js"></script>-->
+</head>
+<body>
+<p id="click">Click Me</p>
+<p id="placeholder" onclick='$("#placeholder").append("<h3>From onclick attribute</h3>")'></p>
+</body>
+</html>
