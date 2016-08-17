@@ -2,16 +2,8 @@
  * conditional operations
  * Created by vijitha on 17/08/16.
  */
-var a = 10;
-var b = 20;
-var linebreak = "<br />";
 
-document.write(" a=");
-document.write(a);
-document.write(linebreak);
-document.write(" b=");
-document.write(b);
-document.write(linebreak);
+var linebreak = "<br />";
 
 document.write ("((a > b) ? 100 : 200) => ");
 result = (a > b) ? 100 : 200;
