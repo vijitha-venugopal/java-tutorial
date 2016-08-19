@@ -1,13 +1,19 @@
 body {
-    background-color: lightblue;
+    background-color: lightgoldenrodyellow;
 }
 
 h1 {
-    color: white;
+    color: midnightblue;
     text-align: center;
 }
 
 p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 23px;
+    color: crimson;
+}
+#para1{
+    font-family: verdana;
+    font-size: 26px;
+    color: blue;
 }
