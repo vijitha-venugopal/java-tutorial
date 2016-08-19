@@ -2,18 +2,14 @@ body {
     background-color: lightgoldenrodyellow;
 }
 
-h1 {
+#para1 {
     color: midnightblue;
     text-align: center;
 }
 
-p {
-    font-family: verdana;
-    font-size: 23px;
-    color: crimson;
-}
-#para1{
-    font-family: verdana;
+
+.center{
+    font-family:  serif;
     font-size: 26px;
     color: blue;
 }
